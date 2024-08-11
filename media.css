@@ -1,0 +1,48 @@
+@media (max-width: 54rem) {
+  body {
+    flex-direction: column;
+    padding: 1.8rem;
+  }
+  .sidebar {
+    padding: 2rem 3rem 2rem 3rem;
+    order: 2;
+  }
+  .logo {
+    height: 5.2rem;
+    align-self: center;
+  }
+  /* workout details css */
+  .workouts {
+    list-style: none;
+    height: 30vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 30rem) {
+  body {
+    flex-direction: column;
+    padding: 0.8rem;
+  }
+  .sidebar {
+    flex-basis: 30rem;
+    padding: 0.6rem;
+    order: 2;
+  }
+  .logo {
+    height: 4rem;
+    margin-bottom: 0.4rem;
+  }
+  .guide {
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  /* workout details css */
+  .workouts {
+    height: 34vh;
+  }
+  .reset {
+    margin-top: 3rem;
+    margin-bottom: 0.6rem;
+  }
+}
